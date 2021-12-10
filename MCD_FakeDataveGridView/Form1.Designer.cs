@@ -54,6 +54,7 @@ namespace MCD_FakeDataveGridView
             this.dgwMusteriListe.Name = "dgwMusteriListe";
             this.dgwMusteriListe.Size = new System.Drawing.Size(750, 382);
             this.dgwMusteriListe.TabIndex = 0;
+            this.dgwMusteriListe.DoubleClick += new System.EventHandler(this.dgwMusteriListe_DoubleClick);
             // 
             // Form1
             // 
